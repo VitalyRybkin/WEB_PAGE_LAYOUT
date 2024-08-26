@@ -1,0 +1,95 @@
+.header {
+  margin-bottom: 5rem;
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  &__box_menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  &__box_menu a {
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+  }
+
+  &__box_items {
+    margin: 0 2rem;
+  }
+
+  &__box_items a {
+    color: #000000;
+    padding: 0.5rem 0.5rem;
+    font-family: "Gilroy-SemiBold ☞",sans-serif;
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: left;
+    transition: ease-out 0.2s;
+  }
+
+  &__box_items a:hover {
+    color: #F25822;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  &__info_text {
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+
+  &__info_links {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  &__info_links_video {
+    font-family: "Gilroy-Bold ☞", sans-serif;
+    font-size: 15px;
+    line-height: 17.58px;
+    text-align: left;
+    color: #AAAAAA;
+    cursor: pointer;
+  }
+
+  &__info_links_video:hover {
+    color: #F25822;
+  }
+
+  &__info_links a:first-child {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0 #F2582233;
+    font-family: "Gilroy-Bold ☞",sans-serif;
+    font-size: 15px;
+    line-height: 17.58px;
+    text-align: left;
+  }
+
+  &__info_links a:first-child {
+    margin-right: 2rem;
+    height: 40px;
+  }
+
+  &__info_links a:last-child {
+    display: flex;
+    align-items: center;
+  }
+
+  &__info_links a:last-child::before {
+    content: url("./static/images/icons/watch_video.svg");
+    margin-right: 1rem;
+  }
+}
