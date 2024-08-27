@@ -31,7 +31,7 @@
     height: 270px;
     text-align: center;
     border: 2px solid #EEE;
-    background-image: url("./static/images/icons/quote.svg");
+    background-image: url("../static/images/icons/quote.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-position-y: 25px;
@@ -88,17 +88,6 @@
 
   &__gallery_dot:not(:last-child) {
     margin-right: 1rem;
-  }
-
-  .active {
-    width: 12px;
-    height: 12px;
-    background-color: #F25822;
-  }
-
-  .shown {
-    box-shadow: 15px 25px 60px -10px #0000001A;
-    opacity: 1;
   }
 
   &__pic {

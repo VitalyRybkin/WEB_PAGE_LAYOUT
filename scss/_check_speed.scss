@@ -1,0 +1,41 @@
+.check_speed {
+  & img {
+    width: 60%;
+  }
+
+  & p {
+    margin-bottom: 3rem;
+    width: 80%;
+  }
+
+  &__registration {
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+
+  &__registration input[type=text] {
+    height: inherit;
+    width: 200px;
+    padding: 0 1rem;
+    background-color: #EEEEEE;
+    border: none;
+    color: #666666;
+    border-radius: 0 50px 50px 0;
+  }
+
+  &__registration input[type=text]:first-child {
+    margin: 0;
+    border-radius: 50px 0 0 50px;
+    border-right: 1px solid #CCC;
+  }
+
+  &__registration input[type=submit] {
+    margin-left: 40px;
+    border: none;
+    height: inherit;
+    width: 140px;
+    text-align: center;
+    border-radius: 50px;
+  }
+}

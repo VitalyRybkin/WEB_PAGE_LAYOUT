@@ -1,0 +1,61 @@
+.advantages {
+  background-color: #FAFAFA;
+
+  &__title h2 {
+    width: 70%;
+    text-align: center;
+  }
+
+  &__title p {
+    width: 75%;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__block_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+    width: 30%;
+    transition: ease 0.3s;
+  }
+
+  &__block_item:hover {
+    cursor: pointer;
+    box-shadow: 15px 25px 60px -5px #0000001A;
+  }
+
+  &__block_item img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  &__block_item p {
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    color: #AAA;
+  }
+
+  &__block_item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    width: 120px;
+    height: 30px;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+  }
+
+  &__block_item a::after {
+    content: url("/static/images/icons/arrow.svg");
+  }
+
+}

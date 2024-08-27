@@ -1,0 +1,52 @@
+.statistic {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    border: 2px solid #EEE;
+    padding: 2rem 4rem;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #666666;
+  }
+
+  &__item span {
+    font-family: "Gilroy-Bold ☞", sans-serif;
+    font-size: 70px;
+    text-align: left;
+  }
+
+  &__item p {
+    font-family: "Gilroy-SemiBold ☞", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  &__divider {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+  &__divider:nth-child(2) {
+    background-color: #F25822;
+  }
+
+  &__divider:nth-child(4) {
+    background-color: #149211;
+  }
+
+  &__divider:nth-child(6) {
+    background-color: #FFC700;
+  }
+}

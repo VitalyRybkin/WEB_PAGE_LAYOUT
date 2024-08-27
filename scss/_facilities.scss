@@ -1,0 +1,35 @@
+.facilities {
+  display: flex;
+  justify-content: space-between;
+
+  &__block {
+    margin: 3rem;
+    padding: 1rem;
+    width: 370px;
+    transition: ease 0.3s;
+  }
+
+  &__block:hover {
+    cursor: pointer;
+    box-shadow: 15px 25px 56px 6px #0000000F;
+  }
+
+  &__block img, &__block p {
+    margin-bottom: 1rem;
+  }
+
+  &__read {
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: 11px;
+    line-height: 16.5px;
+    text-align: left;
+    color: #000;
+  }
+
+  & span {
+    font-family: "Gilroy-Bold ☞",sans-serif;
+    font-size: 11px;
+    line-height: 16.5px;
+    text-align: left;
+  }
+}
