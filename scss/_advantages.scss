@@ -55,7 +55,7 @@
   }
 
   &__block_item a::after {
-    content: url("/static/images/icons/arrow.svg");
+    content: url("../../static/images/icons/arrow.svg");
   }
 
 }

@@ -89,7 +89,7 @@
   }
 
   &__info_links a:last-child::before {
-    content: url("/static/images/icons/watch_video.svg");
+    content: url("../../static/images/icons/watch_video.svg");
     margin-right: 1rem;
   }
 }
