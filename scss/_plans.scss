@@ -51,7 +51,7 @@
     border-radius: 40px;
     font-family: "Gilroy-Bold ☞",sans-serif;
     font-size: 13px;
-    line-height: 32.5px;
+    line-height: 32px;
     text-align: center;
   }
 
@@ -59,8 +59,13 @@
     margin: 1rem;
     font-family: "Gilroy-Bold ☞", sans-serif;
     font-size: 70px;
-    line-height: 105px;
+    line-height: 70px;
     color: #000000;
+  }
+
+  &__block_rate_currency {
+    margin-right: .3rem;
+    vertical-align: top;
   }
 
   &__block_rate span {

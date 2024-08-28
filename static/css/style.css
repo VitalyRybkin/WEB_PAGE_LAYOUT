@@ -285,15 +285,19 @@
   border-radius: 40px;
   font-family: "Gilroy-Bold ☞", sans-serif;
   font-size: 13px;
-  line-height: 32.5px;
+  line-height: 32px;
   text-align: center;
 }
 .plans__block_rate {
   margin: 1rem;
   font-family: "Gilroy-Bold ☞", sans-serif;
   font-size: 70px;
-  line-height: 105px;
+  line-height: 70px;
   color: #000000;
+}
+.plans__block_rate_currency {
+  margin-right: 0.3rem;
+  vertical-align: top;
 }
 .plans__block_rate span {
   font-family: "Gilroy-Medium ☞", sans-serif;
