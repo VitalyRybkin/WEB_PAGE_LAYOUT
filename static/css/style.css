@@ -100,6 +100,11 @@
   padding: 2rem;
   margin-bottom: 3rem;
 }
+.header__box_logo_link {
+  display: block;
+  width: 170px;
+  height: 40px;
+}
 .header__box_menu {
   display: flex;
   justify-content: right;
@@ -194,6 +199,12 @@
 .footer__main_item a:hover {
   color: #F25822;
 }
+.footer__main_logo_link {
+  display: flex;
+  height: 60px;
+  width: fit-content;
+  margin-bottom: 0.8rem;
+}
 .footer__main_socials {
   display: flex;
   justify-content: start;
@@ -204,13 +215,10 @@
   width: 40px;
   height: 40px;
 }
-.footer__info {
+.footer__main_item {
   width: 270px;
 }
-.footer__info img {
-  margin-bottom: 1rem;
-}
-.footer__info p {
+.footer__main_item p {
   width: 95%;
   margin-bottom: 0.8rem;
   color: #666666 !important;

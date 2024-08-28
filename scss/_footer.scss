@@ -22,6 +22,13 @@
     color: #F25822;
   }
 
+  &__main_logo_link {
+    display: flex;
+    height: 60px;
+    width: fit-content;
+    margin-bottom: .8rem;
+  }
+
   &__main_socials {
     display: flex;
     justify-content: start;
@@ -34,15 +41,11 @@
     height: 40px;
   }
 
-  &__info {
+  &__main_item {
     width: 270px;
   }
 
-  &__info img {
-    margin-bottom: 1rem;
-  }
-
-  &__info p {
+  &__main_item p {
     width: 95%;
     margin-bottom: .8rem;
     color: #666666 !important;
