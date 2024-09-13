@@ -10,7 +10,7 @@
 
   &__box_logo_link {
     display: block;
-    width: 170px;
+    width: fit-content;
     height: 40px;
   }
 
@@ -18,30 +18,68 @@
     display: flex;
     justify-content: right;
     align-items: center;
+    width: 100%;
   }
 
   &__box_menu a {
-    width: 120px;
-    height: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
     border-radius: 30px;
   }
 
   &__box_items {
+    width: 100%;
     margin: 0 2rem;
+  }
+
+  &__box_items ul {
+    //width: 100%;
+    list-style: none;
+  }
+
+  &__box_items li {
+    height: 30px;
   }
 
   &__box_items a {
     color: #000000;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 1rem;
     font-family: "Gilroy-SemiBold ☞",sans-serif;
-    font-size: 14px;
-    line-height: 16.41px;
+    font-size: 1.3rem;
+    line-height: 16px;
     text-align: left;
     transition: ease-out 0.2s;
   }
 
   &__box_items a:hover {
     color: #F25822;
+  }
+
+  &__box_items li:last-child {
+    margin-left: 2rem;
+    font-weight: 200;
+  }
+  &__box_items li:last-child a {
+    font-weight: 400;
+  }
+  &__box_items li:last-child a:hover {
+    color: #F25822 !important;
+  }
+
+  &__get_started {
+    color: #FFFFFF !important;
+    padding: 1rem 2rem !important;
+    font-size: 1rem !important;
+    text-align: center;
+  }
+
+  &__get_started:hover {
+    color: #F25822 !important;
+  }
+
+  .burger_menu {
+    display: none;
   }
 
   &__info {
@@ -98,4 +136,51 @@
     content: url("../../static/images/icons/watch_video.svg");
     margin-right: 1rem;
   }
+}
+
+.sidebar {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 350px;
+  height: fit-content;
+  padding: 3rem !important;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar li:last-child {
+  margin-top: 2rem;
+  margin-left: 0;
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.sidebar li:first-child a {
+  justify-content: flex-start;
+}
+
+.menubar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menubar li:first-child {
+  margin-right: auto;
 }

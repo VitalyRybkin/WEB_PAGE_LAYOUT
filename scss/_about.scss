@@ -1,6 +1,10 @@
 .about {
   display: flex;
 
+  &__info {
+    padding: 1rem;
+  }
+
   &__title {
     padding: 1rem;
     margin-bottom: 2rem;
@@ -21,7 +25,7 @@
   }
 
   &__links_item:not(:last-child) {
-    margin-bottom: 1.3rem;
+    margin-bottom: 2rem;
   }
 
   &__links_item h5 {
@@ -38,6 +42,7 @@
   }
 
   &__links_item_pic {
-    height: 80%;
+    width: 70% !important;
+    height: auto;
   }
 }

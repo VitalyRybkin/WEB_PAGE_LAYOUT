@@ -3,7 +3,8 @@
 
   &__main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
     padding: 3rem 0;
   }
@@ -42,7 +43,15 @@
   }
 
   &__main_item {
-    width: 270px;
+    width: 33%;
+  }
+
+  &__main_item_menu {
+    display: flex;
+  }
+
+  .footer__main_item_menu div:not(:last-child) {
+    margin-right: 2rem;
   }
 
   &__main_item p {
@@ -77,5 +86,10 @@
     width: 100%;
     padding: 1rem;
     border-top: 1px solid #CCCCCC;
+  }
+
+  &__rights p {
+    width: 100%;
+    text-align: center;
   }
 }

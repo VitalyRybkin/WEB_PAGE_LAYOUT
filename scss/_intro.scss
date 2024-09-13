@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: left;
     gap: 1rem;
-    width: 515px;
+    width: 40%;
   }
 
   &__text p {
@@ -28,6 +28,11 @@
   }
 
   &__pic {
-    width: 70%;
+    width: 55%;
+    height: 55%;
+  }
+
+  &__pic img{
+    width: 100%;
   }
 }

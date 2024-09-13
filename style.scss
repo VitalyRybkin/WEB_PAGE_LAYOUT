@@ -11,6 +11,23 @@
 @import 'scss/team';
 @import 'scss/check_speed';
 @import 'scss/news';
+@import 'scss/media';
+
+html, body {
+  font-size: 12px;
+
+  @media (max-width: 1440px) {
+    html, body {
+      font-size: 9px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    html, body {
+      font-size: 7px;
+    }
+  }
+}
 
 h3, h5 {
   margin-bottom: 1rem;
@@ -22,15 +39,21 @@ section {
   align-items: center;
 }
 
-.container_horizontal {
-  padding: 2rem;
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  //border: 1px solid #F25822;
 }
 
 .container_vertical {
-  padding: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +61,7 @@ section {
 }
 
 .center {
-  padding: 0 calc(50% - 600px);
+  padding: 0 calc(50% - 650px);
 }
 
 .dark_link {
@@ -50,7 +73,6 @@ section {
   background-color: #F25822;
   color: #FFF;
   font-family: "Gilroy-Regular ☞",sans-serif;
-  font-weight: 600;
   font-size: 12px;
   transition: ease-out 0.2s;
 }
@@ -76,10 +98,9 @@ section {
   cursor: pointer;
 }
 
-.links {
+.links .container{
   display: flex;
   justify-content: center;
-  padding: 2rem;
 }
 
 .links img {

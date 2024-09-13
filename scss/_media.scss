@@ -1,0 +1,300 @@
+
+
+@media (max-width: 1024px) {
+
+  .center {
+    padding: 0 calc(50% - 450px);
+  }
+
+  .container {
+    max-width: 1024px;
+  }
+
+  .links img {
+    width: 150px;
+  }
+
+  .check_speed img {
+    width: 40%;
+  }
+
+  .check_speed__registration {
+    justify-content: center;
+  }
+
+  .plans {
+    margin-bottom: 3rem;
+
+    &__block_item {
+      width: 320px;
+    }
+
+    &__block {
+      height: 50rem;
+    }
+
+    &__title {
+      margin-bottom: 6rem;
+    }
+  }
+
+  .footer__main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__main_item {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    justify-content: center;
+  }
+
+  .center {
+    padding: 0 calc(50% - 1050px);
+  }
+
+  .about img {
+    width: 40%;
+  }
+
+  .about__links_item div:first-child {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about__links_item {
+    text-align: left;
+  }
+
+  .plans__title {
+    margin-bottom: 2rem;
+  }
+
+  .team__block_item {
+    padding: 4rem 3rem;
+  }
+  .header__info img, .check_speed img, .about__pic img {
+    display: none;
+  }
+
+  .header__info_box, .check_speed__info, .about__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+  }
+
+  .check_speed {
+    margin-bottom: 2rem;
+  }
+
+}
+//
+//@media (min-width: 1536px) {
+//  .container {
+//    min-width: 1536px;
+//  }
+//}
+
+@media (max-width: 768px) {
+
+  .burger_menu {
+    display: block !important;
+  }
+
+  .hide_on_mobile {
+    display: none;
+  }
+
+  .links .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .links {
+    margin: 2rem;
+  }
+
+  .about__links_item:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  .check_speed__info h5 {
+    text-align: center;
+  }
+
+  .plans__block_item {
+    width: 220px !important;
+  }
+
+  .team__block_item {
+    padding: 2rem 1rem;
+  }
+
+  .statistic__item p {
+    text-align: center;
+  }
+
+  .statistic {
+    margin: 5rem 2rem;
+  }
+
+  .plans__block_item p {
+    text-align: center;
+  }
+
+  .news__block img {
+    display: none;
+  }
+
+  .news__block {
+    min-width: 500px !important;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .sidebar {
+    width: 100%;
+  }
+
+  .intro__pic {
+    display: none;
+  }
+
+  .intro__text {
+    width: auto;
+	align-items: center;
+    padding: 2rem;
+  }
+
+  .intro__text p,
+  .intro__text h3
+  {
+    text-align: center;
+  }
+
+  .facilities .container{
+    flex-direction: column;
+  }
+
+  .advantages__block {
+    flex-direction: column;
+  }
+
+  .advantages__block_item {
+    width: auto;
+  }
+
+  .advantages__block_item img {
+    width: 70%;
+  }
+
+  .header__info_box, .check_speed__info, .about__info {
+    width: 100% !important;
+  }
+
+  .about__links_item {
+    height: auto;
+  }
+
+  .about__links_item div:first-child {
+    width: 100%;
+  }
+
+  .advantages__block_item {
+    margin-bottom: 1rem;
+  }
+
+  .statistic__box {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .check_speed__registration {
+    flex-direction: column;
+    height: 40px;
+  }
+
+  .check_speed__registration div {
+    margin-bottom: 1rem;
+  }
+
+  .team__title {
+    text-align: center;
+  }
+
+  .check_speed__registration input[type=submit] {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .plans__block {
+    height: auto;
+  }
+  .plans__block {
+    flex-direction: column;
+  }
+
+  .gallery_block {
+    min-width: 350px !important;
+  }
+
+  .news__block {
+    min-width: 350px !important;
+  }
+
+  .footer__main_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+  }
+
+  .footer__main_item p {
+    text-align: center;
+  }
+
+  .footer__main_item_menu {
+    flex-direction: column;
+  }
+
+  .footer__main_item_menu div {
+    padding: 0;
+  }
+
+  .footer .footer__main_item_menu div:not(:last-child) {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 320px) {
+
+  .facilities__block {
+    width: 300px;
+  }
+
+  .check_speed__registration input[type=text] {
+    width: 130px;
+  }
+}
+
+@media (min-width: 375px) {
+  .check_speed__registration input[type=text] {
+    width: 160px;
+  }
+
+  .facilities__block {
+    padding: 2rem;
+    margin: 1rem;
+  }
+}
